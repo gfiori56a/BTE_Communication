@@ -1,0 +1,18 @@
+setup done!
+change=1 distance[cm]=302
+change=0 distance[cm]=302
+change=1 distance[cm]=0  <<<<<<<<<<<<<<<<
+change=0 distance[cm]=0
+change=0 distance[cm]=0
+change=0 distance[cm]=0
+change=0 distance[cm]=0
+change=0 distance[cm]=0
+change=1 distance[cm]=300
+change=0 distance[cm]=300
+change=1 distance[cm]=0  <<<<<<<<<<<<<<<<
+change=0 distance[cm]=0
+change=1 distance[cm]=303
+change=0 distance[cm]=303
+change=1 distance[cm]=253
+change=0 distance[cm]=253
+

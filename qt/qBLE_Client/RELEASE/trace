@@ -1,0 +1,53 @@
+qt.bluetooth.bluez: Missing CAP_NET_ADMIN permission. Cannot determine whether a found address is of random or public type.
+--------> "E_IDLE"
+"Scanning for devices..."
+---SCAN: onAddDevice
+---SCAN: onAddDevice
+---SCAN: onAddDevice
+---SCAN: onAddDevice
+---SCAN: onAddDevice
+---SCAN: onAddDevice
+Discovered LE Device: Name= "arBLE Peripheral"  Address= "DC:54:75:C6:D8:31"
+"Low Energy device found."
+--------> "E_WAIT_DEVICE_AVAILABLE"
+qt.bluetooth: Using BlueZ LE DBus API
+--------> "E_WAIT_DEVICE_CONNECTION"
+---CONNECT: onDeviceConnected
+reset currentService, m_control->discoverServices()
+setCurrentService, index= -1
+update_currentService, index= -1
+"Service not found."
+---CONNECT: onServiceDiscovered
+"Service discovered. Waiting for service scan to be done..."
+---CONNECT: onServiceDiscovered
+"Service discovered. Waiting for service scan to be done..."
+---CONNECT: onServiceScanDone
+"All services discovered."
+setCurrentService, index= 0
+update_currentService, index= 0
+update_currentService: uuid= "{19b10010-e8f2-537e-4f6c-d104768a1214}"
+"Connecting to service..."
+update_currentService: m_service->discoverDetails()
+---SERVICE: serviceStateChanged, state:  QLowEnergyService::DiscoveringServices
+---SERVICE: onCharacteristicChanged
+Characteristic Changed:  "\x00"
+---SERVICE: serviceStateChanged, state:  QLowEnergyService::ServiceDiscovered
+Write Characteristic:  "{19b10011-e8f2-537e-4f6c-d104768a1214}"
+Read Characteristic:  "{19b10011-e8f2-537e-4f6c-d104768a1214}"
+Read Characteristic:  "{19b10012-e8f2-537e-4f6c-d104768a1214}"
+"Search characteristic done."
+--------> "E_TEST_DEVICE_SERVICE"
+--------> "E_READY"
+write: "\x01"
+BLEInterface::BLE_write:  "\x01"
+"{19b10011-e8f2-537e-4f6c-d104768a1214}" write type 2
+---SERVICE: onCharacteristicWrite
+Characteristic Written:  "\x01"
+BLEInterface::BLE_read
+"{19b10012-e8f2-537e-4f6c-d104768a1214}"  read =>
+---SERVICE: onCharacteristicChanged
+Characteristic Changed:  "\x00"
+---SERVICE: onCharacteristicRead
+Characteristic Read:  "\x00"
+"{19b10012-e8f2-537e-4f6c-d104768a1214}" read <=
+

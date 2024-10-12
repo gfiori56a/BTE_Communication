@@ -1,0 +1,33 @@
+# use for colors: <name><tab>KEYWORDx
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AFlib KEYWORD1
+FTIMER KEYWORD1 
+TDELTA KEYWORD1
+HC_SR04 KEYWORD1
+MATRIX_RAM KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+start KEYWORD2
+done KEYWORD2
+
+begin KEYWORD2
+end KEYWORD2
+
+setup KEYWORD2
+setPolling KEYWORD2
+setMaxDistance KEYWORD2
+setThrDistance KEYWORD2
+read KEYWORD2
+
+getRam KEYWORD2
+setNumber KEYWORD2
+fillPoints KEYWORD2
+updown KEYWORD2
+writeRam KEYWORD2
+
