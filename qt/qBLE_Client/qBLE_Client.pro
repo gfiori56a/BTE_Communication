@@ -1,5 +1,5 @@
 #---------------------------------------------------------------------------------------
-# 2024-08-10  Bluetooth client (status machine) for arBLE_Preipheral (arduino server)
+# 2024-11-29  Bluetooth client (status machine) for arBLE_Preipheral (arduino server)
 #---------------------------------------------------------------------------------------
 
 QT       += core gui bluetooth widgets
